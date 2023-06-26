@@ -1,0 +1,17 @@
+[
+    {
+        "name": "A",
+        "roll": 1,
+        "semestert": 1
+    },
+    {
+        "name": "B",
+        "roll": 2,
+        "semestert": 1
+    },
+    {
+        "name": "C",
+        "roll": 3,
+        "semestert": 1
+    }
+]
