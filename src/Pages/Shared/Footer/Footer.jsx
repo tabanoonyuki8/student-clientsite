@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='bg-neutral'>
-            <footer className="footer p-10 text-neutral-content max-w-[1440px] mx-auto">
+            <footer className="footer p-10 text-neutral-content max-w-[1440px] mx-auto ">
                 <div>
                     <span className="footer-title">Services</span>
                     <a className="link link-hover">Branding</a>
@@ -24,8 +24,15 @@ const Footer = () => {
                     <a className="link link-hover">Privacy policy</a>
                     <a className="link link-hover">Cookie policy</a>
                 </div>
+
+            </footer>
+            <footer className="footer footer-center p-4 bg-neutral text-base-content">
+                <div>
+                    <p className='text-white'>Copyright © 2023 - All right reserved by <h1><b class="text-orange-600">Tabanoon Mim Yuki</b></h1></p>
+                </div>
             </footer>
         </div>
+        
     );
 };
 
